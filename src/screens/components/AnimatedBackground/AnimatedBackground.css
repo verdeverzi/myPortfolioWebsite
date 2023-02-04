@@ -1,0 +1,35 @@
+.animated-section {
+    background-color: var(--dark-shades);
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+  }
+  
+  .animated-section .animated-row {
+    position: relative;
+
+    left: -5%;
+    width: 100%;
+    display: flex;
+    padding: 10px 0;
+    white-space: nowrap;
+   
+  }
+  
+  .animated-section svg {
+    width: 150px;
+    height: 150px;
+    fill: rgba(0, 0, 0, 0.1);
+    transition: 0.2s;
+    margin: 0 5px;
+  }
+  
+  .animated-section svg:hover {
+    fill: var(--main-brand);
+    filter: drop-shadow(0 0 10px var(--main-brand));
+  }

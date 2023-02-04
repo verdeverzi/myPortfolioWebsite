@@ -1,0 +1,69 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+}
+
+/* makes the box not include extra size when adding padding */
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+  --page-padding: 1.2rem 10rem;
+  --gap: 1 rem;
+
+  font-family: monospace;
+
+  /* COLORS */
+  --light-shades: #f4f7f6;
+  --main-brand: #66b46b;
+  --dark-accent: #6d7871;
+  --dark-shades: #232026;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.btn{
+  padding: 0.45rem 1.2rem;
+  cursor: pointer;
+  background-color: var(--dark-shades);
+  color: var(--main-brand);
+  border:none;
+  transition: all 0.2s ease-in-out;
+  width:fit-content;
+}
+.align-right{
+  margin-left: auto ;
+}
+
+@media screen and (max-width: 768px) {
+  :root {
+    --page-padding: 1rem 2rem;
+    --gap:1 rem;
+    --padding:1.2rem;
+    --border-radius:5px;
+
+  }
+  .navbar-container {
+    flex-direction: column;
+    gap: var(--gap);
+  }
+
+  .navbar-links-container {
+    flex-direction: column;
+  }
+
+  .aboutme-container{
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,20 @@
+.aboutme-container {
+  padding: 70px;
+  display: flex;
+  gap: var(--gap);
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+background-color: var(--main-brand);
+}
+
+/* .aboutme-container img {
+ width:200px;
+  height: 150px;
+  border-radius: 40%;
+  margin: 0 2rem 0 0;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+} */
+.aboutme-container p,h1{
+ color:var(--light-shades)   
+}

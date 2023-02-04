@@ -1,0 +1,32 @@
+.portfolio-container {
+  
+  padding: 50px 10px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: var(--dark-shades);
+}
+
+.portfolio-projects-frame img{
+    width:250px;
+    height: 200px ;
+    object-fit: cover;
+    border-radius:var(--border-radius);
+    cursor:pointer;
+}
+
+.portfolio-grid{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap:10px;
+    justify-items: center;
+}
+.portfolio-projects-frame img:hover {
+    filter: brightness(0.8);
+  }
+  
+.portfolio-container  h1,p{
+    color:var(--light-shades)
+}
