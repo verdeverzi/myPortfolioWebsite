@@ -16,7 +16,7 @@ const Contact = () => {
         GitHub
       </a>
       <a
-        href="www.linkedin.com/in/cojocaru-sorina
+        href="https://linkedin.com/in/cojocaru-sorina
 "
         target="_blank"
         rel="noreferrer "
