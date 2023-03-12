@@ -15,7 +15,7 @@ const Technologies = () => {
     <div id="technologies" className="technologies-container">
       <h1>Technologies i currently use</h1>
       <div className="tech-grid-container">{technologiesList}</div>
-      <h3>And more...</h3>
+     
     </div>
   );
 };
