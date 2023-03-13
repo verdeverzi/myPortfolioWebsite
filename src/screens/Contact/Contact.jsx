@@ -4,8 +4,8 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <div id="contact" className="contact-container">
-      <p>Phone:+4017634616111</p>
-      <p>E-mail:verdeverzi@yahoo.com</p>
+      <p>Phone:+4917634616111</p>
+      <p>E-mail:cojocaru.sorina86@gmail.com</p>
 
       <a
         href="https://github.com/verdeverzi"
