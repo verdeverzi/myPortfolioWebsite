@@ -11,7 +11,6 @@ const Contact = () => {
         href="https://github.com/verdeverzi"
         target="_blank"
         rel="noreferrer "
-        style={{ color: "#f4f7f6" }}
       >
         GitHub
       </a>
@@ -20,7 +19,6 @@ const Contact = () => {
 "
         target="_blank"
         rel="noreferrer "
-        style={{ color: "#f4f7f6" }}
       >
         LinkedIn
       </a>

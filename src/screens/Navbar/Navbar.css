@@ -1,4 +1,8 @@
 .navbar-container {
+
+  z-index:9999;
+  width:100%;
+  position:fixed;
   display: flex;
   justify-content: space-between;
 
@@ -30,8 +34,8 @@
   transform: translateY(-5px);
 }
 .navbar-container img {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 4.5rem;
+  height: 4.5rem;
   cursor: pointer;
 }
 .navbar-name {
