@@ -58,11 +58,28 @@ html{
     flex-direction: column;
     gap: var(--gap);
   }
-
+  .typewriter #typing-text{
+    border:none;
+    font-weight: bold;
+    text-align: center;
+    overflow: auto;
+    outline: none;
+    resize: none;
+    background:transparent;
+    font-size: 1.5rem;
+    color:var(--light-shades);
+  }
+ .tech-grid-container {
+    padding-top: 20px;
+    width: 70%;
+    flex: 2 1;
+    /* display: grid; */
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: var(--gap);
+}
   .navbar-links-container {
     flex-direction: column;
   }
-
   .aboutme-container{
     flex-direction: column;
   }

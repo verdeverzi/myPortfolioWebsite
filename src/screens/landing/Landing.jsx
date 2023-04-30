@@ -19,7 +19,7 @@ const Landing = () => {
       <div className="landing-type">
         {/* <div></div> */}
 
-        <Typewriter data={msgArray} />
+        <Typewriter className='typewriter'data={msgArray} />
       </div>
     </AnimatedBackground>
   );
