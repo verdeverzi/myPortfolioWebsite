@@ -1,9 +1,9 @@
 .aboutme-container {
-  padding: 70px;
+  padding: 60px;
   display: flex;
   gap: var(--gap);
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 background-color: var(--main-brand);
 }

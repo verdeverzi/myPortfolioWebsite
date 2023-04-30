@@ -6,6 +6,7 @@
   /* color: var(--light-shades); */
   font-size: 1.2rem;
   font-weight: 600;
+
 }
 .contact-container a:hover {
   transform: translateY(-5px);

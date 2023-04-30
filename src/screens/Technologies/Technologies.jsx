@@ -13,7 +13,7 @@ const Technologies = () => {
   });
   return (
     <div id="technologies" className="technologies-container">
-      <h1>Technologies i currently use</h1>
+      <h1>Technologies I currently use</h1>
       <div className="tech-grid-container">{technologiesList}</div>
      
     </div>

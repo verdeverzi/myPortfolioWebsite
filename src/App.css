@@ -58,7 +58,7 @@ html{
     flex-direction: column;
     gap: var(--gap);
   }
-  .typewriter #typing-text{
+  .landing-type #typing-text{
     border:none;
     font-weight: bold;
     text-align: center;
@@ -76,6 +76,10 @@ html{
     /* display: grid; */
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
     gap: var(--gap);
+}
+.technologies-container h1{
+text-align: center;
+
 }
   .navbar-links-container {
     flex-direction: column;
