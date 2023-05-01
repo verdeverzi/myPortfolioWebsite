@@ -1,11 +1,15 @@
 .aboutme-container {
-  padding: 60px;
+  padding: 40px;
   display: flex;
   gap: var(--gap);
   justify-content: flex-start;
   align-items: flex-start;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-background-color: var(--main-brand);
+background-color: var(--dark-shades);
+border: 1px solid var(--main-brand);
+line-height: 1.5rem;
+;
+
 }
 
 /* .aboutme-container img {
@@ -15,6 +19,7 @@ background-color: var(--main-brand);
   margin: 0 2rem 0 0;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 } */
-.aboutme-container p,h1{
- color:var(--light-shades)   
+.aboutme-container h1{
+margin-bottom: 3vh;
+color: var(--light-shades)
 }
