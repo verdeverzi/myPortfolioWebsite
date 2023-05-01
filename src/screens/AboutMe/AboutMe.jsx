@@ -9,10 +9,11 @@ const AboutMe = () => {
         <div>
             <h1>AboutMe</h1>
             <p>
-            Hi, I'm Sorina i am romanian and i live in Germany for the past 5 years now. I decided to change my career path and make the great shift towards WebDevelopment and its engaging experience.
-              My Portfolio Website is a work in progress and it brings me great joy with each little piece i build , thank you for checking it out ! 
-            </p>
-        </div>
+            HI, my name is Sorina, and I'm a Romanian living in Germany for the past five years. Recently, I've decided to shift my career path towards web development, and I'm already finding it to be an engaging and fulfilling experience.
+
+I'm currently working on my portfolio website, which is still a work in progress. However, with each little piece I build, I find great joy and satisfaction. Thank you for taking the time to check it out!
+</p>
+    </div>
     </div>
   )
 }
