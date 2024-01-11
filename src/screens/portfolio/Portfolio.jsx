@@ -5,15 +5,14 @@ import { projects } from "./projects";
 const Portfolio = () => {
   const [currIdx, setCurrIdx] = useState(null);
   const handleClick = (idx) => setCurrIdx(idx);
-const clearCurrent=()=>setCurrIdx(null);
+  const clearCurrent = () => setCurrIdx(null);
+
   const projectList = projects.map((project, idx) => {
     return (
-      <div
-        key={idx}
-        onClick={() => handleClick(idx)}
-        className="portfolio-projects-frame"
-      >
-        <img src={project.image} alt={project.title} />
+      <div key={idx} className="portfolio-projects-frame">
+        <a href={project.url} target="_blank" rel="noopener noreferrer">
+          <img src={project.image} alt={project.title} />
+        </a>
       </div>
     );
   });
@@ -24,11 +23,9 @@ const clearCurrent=()=>setCurrIdx(null);
     <div id="portfolio" className="portfolio-container">
       <h1>Portfolio</h1>
       <p>
-    
+        {/* Any additional text or elements you want to include */}
       </p>
       <div className="portfolio-grid">
-        
-
         {projectList}
       </div>
     </div>

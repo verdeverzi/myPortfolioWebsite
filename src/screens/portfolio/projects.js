@@ -1,23 +1,27 @@
+
+
 export const projects = [
+  {
+    title: "RescueMe",
+    description: "Final Project of a Petadoption WebApp",
+    image: require("./images/pets.png"),
+
+    url: "https://rescuemedemofinal.vercel.app/",
+  },
   {
     title: "Weather app",
     description:
       "Weather app that displays the current weather in your city.",
-    image: "https://picsum.photos/900",
-    url: "https://picsum.photos/900",
+    image: require("./images/hot_13882960.png"),
+    url: "https://simple-weather-api-black.vercel.app/",
+
   },
  
   {
     title: "To-Do List",
     description: "...",
-    image: "https://picsum.photos/500",
-    url: "https://picsum.photos/500",
-  },
-  {
-    title: "Project 3",
-    description: "Pomodoro clock that can be used to track your time.",
-    image: "https://picsum.photos/400",
-    url: "https://picsum.photos/400",
+    image: require("./images/list.png"),
+    url:"https://my-to-do-app-seven.vercel.app/",
   },
   {
     title: "Project 4",
