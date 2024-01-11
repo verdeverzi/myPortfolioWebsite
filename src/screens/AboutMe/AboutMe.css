@@ -1,5 +1,5 @@
 .aboutme-container {
-  padding: 40px;
+  padding: 30px;
   display: flex;
   gap: var(--gap);
   justify-content: flex-start;
@@ -7,6 +7,7 @@
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 background-color: var(--dark-shades);
 border: 1px solid var(--main-brand);
+border-left: none;
 line-height: 1.5rem;
 ;
 

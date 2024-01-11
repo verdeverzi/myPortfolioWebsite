@@ -2,14 +2,14 @@
 
 export const projects = [
   {
-    title: "RescueMe",
+    title:  "Petadoption WebApp",
     description: "Final Project of a Petadoption WebApp",
     image: require("./images/pets.png"),
 
     url: "https://rescuemedemofinal.vercel.app/",
   },
   {
-    title: "Weather app",
+    title: " Simple API WeatherApp",
     description:
       "Weather app that displays the current weather in your city.",
     image: require("./images/hot_13882960.png"),
@@ -24,10 +24,10 @@ export const projects = [
     url:"https://my-to-do-app-seven.vercel.app/",
   },
   {
-    title: "Project 4",
-    description: "To-do list that can be used to track your tasks.",
-    image: "https://picsum.photos/400" ,
-    url: "https://picsum.photos/400",
+    title: "NASA Images",
+    description: "..",
+    image: require("./images/galaxy.png"),
+    url: "https://nasa-images-zeta.vercel.app/",
   },
   
 ];

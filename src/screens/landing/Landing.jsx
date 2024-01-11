@@ -6,7 +6,7 @@ import { Typewriter, AnimatedBackground } from "../components/animatedComp";
 let msgArray = [
   "Hello!",
   "I am a FrontEnd Web Developer",
-  "based in Dortmund Germany",
+  "based in Timisoara Romania",
   " ",
 ];
 

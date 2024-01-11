@@ -10,6 +10,7 @@ const Portfolio = () => {
   const projectList = projects.map((project, idx) => {
     return (
       <div key={idx} className="portfolio-projects-frame">
+       <h3 className="projectTitle"> {project.title} </h3>
         <a href={project.url} target="_blank" rel="noopener noreferrer">
           <img src={project.image} alt={project.title} />
         </a>
